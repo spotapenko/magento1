@@ -1,0 +1,30 @@
+<?xml version="1.0"?>
+<!--
+/**
+ */
+-->
+<config>
+    <modules>
+        <Acme_Feedback>
+            <version>1.0.0.0.1</version>
+        </Acme_Feedback>
+    </modules>
+    <frontend>
+        <routers>
+            <acme_feedback>
+                <use>standard</use>
+                <args>
+                    <module>Acme_Feedback</module>
+                    <frontName>feedback</frontName>
+                </args>
+            </acme_feedback>
+        </routers>
+    </frontend>
+    <default>
+        <feedback>
+            <view>
+                <enabled>1</enabled>
+            </view>
+        </feedback>
+    </default>
+</config>

@@ -1,0 +1,14 @@
+<?xml version="1.0"?>
+<!--
+/**
+ *
+ */
+-->
+<config>
+    <modules>
+        <Acme_Feedback>
+            <active>true</active>
+            <codePool>local</codePool>
+        </Acme_Feedback>
+    </modules>
+</config>
