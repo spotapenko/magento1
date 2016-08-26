@@ -15,4 +15,10 @@ class Acme_Feedback_IndexController extends Mage_Core_Controller_Front_Action
         var_dump('Stas test!');
 
     }
+
+    public function paramAction() {
+        echo 'Goodbye World!';
+        $newsId = $this->getRequest()->getParam('id');
+        echo $newsId;
+    }
 }
