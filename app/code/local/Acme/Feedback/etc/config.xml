@@ -20,11 +20,4 @@
             </acme_feedback>
         </routers>
     </frontend>
-    <default>
-        <feedback>
-            <view>
-                <enabled>1</enabled>
-            </view>
-        </feedback>
-    </default>
 </config>
