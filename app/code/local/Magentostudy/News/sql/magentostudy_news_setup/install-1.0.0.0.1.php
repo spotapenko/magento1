@@ -65,3 +65,4 @@ $table = $installer->getConnection()
     )
     ->setComment('News item');
 $installer->getConnection()->createTable($table);
+$installer->endSetup();
