@@ -1,33 +1,32 @@
 <?php
 /**
- * * News Data helper
+ * News Data helper
  *
  * @author Magento
  */
 class Magentostudy_News_Helper_Data extends Mage_Core_Helper_Data
 {
     /**
-     * Path to store config if frontend output is enabled
+     * Path to store config if front-end output is enabled
      *
      * @var string
      */
-    const XML_PATH_ENABLED
-        = 'news/view/enabled';
+    const XML_PATH_ENABLED            = 'news/view/enabled';
+
     /**
      * Path to store config where count of news posts per page is stored
      *
      * @var string
      */
-    const XML_PATH_ITEMS_PER_PAGE
-        = 'news/view/items_per_page';
+    const XML_PATH_ITEMS_PER_PAGE     = 'news/view/items_per_page';
+
     /**
-     * Path to store config where count of days while news is still recently
-    added is stored
+     * Path to store config where count of days while news is still recently added is stored
      *
      * @var string
      */
-    const XML_PATH_DAYS_DIFFERENCE
-        = 'news/view/days_difference';
+    const XML_PATH_DAYS_DIFFERENCE    = 'news/view/days_difference';
+
     /**
      * News Item instance for lazy loading
      *
@@ -76,8 +75,7 @@ class Magentostudy_News_Helper_Data extends Mage_Core_Helper_Data
         if (!$this->_newsItemInstance) {
             $this->_newsItemInstance = Mage::registry('news_item');
             if (!$this->_newsItemInstance) {
-                Mage::throwException($this->__('News item instance does not
-exist in Registry'));
+                Mage::throwException($this->__('News item instance does not exist in Registry'));
             }
         }
         return $this->_newsItemInstance;

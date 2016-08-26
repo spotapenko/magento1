@@ -1,7 +1,31 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="19b417c5-e09f-414b-9d29-e78c8398b984" name="Default" comment="" />
+    <list default="true" id="19b417c5-e09f-414b-9d29-e78c8398b984" name="Default" comment="all files">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/code/local/Magentostudy/News/Helper/Admin.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/code/local/Magentostudy/News/Model/Resource/News/Collection.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/code/local/Magentostudy/News/Block/Adminhtml/News/Edit/Tab/Content.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/code/local/Magentostudy/News/Block/Adminhtml/News/Edit.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/code/local/Magentostudy/News/Block/Adminhtml/News/Edit/Form.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/code/local/Magentostudy/News/Block/Adminhtml/News/Grid.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/code/local/Magentostudy/News/Block/Adminhtml/News/Edit/Form/Element/Image.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/code/local/Magentostudy/News/Block/Adminhtml/News/Edit/Tab/Image.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/code/local/Magentostudy/News/controllers/IndexController.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/code/local/Magentostudy/News/Block/Adminhtml/News/Edit/Tab/Main.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/code/local/Magentostudy/News/Block/Adminhtml/News.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/code/local/Magentostudy/News/controllers/Adminhtml/NewsController.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/code/local/Magentostudy/News/Block/Adminhtml/News/Edit/Tabs.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/code/local/Magentostudy/News/etc/adminhtml.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/code/local/Magentostudy/News/etc/system.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/code/local/Magentostudy/News/Helper/Data.php" afterPath="$PROJECT_DIR$/app/code/local/Magentostudy/News/Helper/Data.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/code/local/Magentostudy/News/Helper/Image.php" afterPath="$PROJECT_DIR$/app/code/local/Magentostudy/News/Helper/Image.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/code/local/Magentostudy/News/etc/config.xml" afterPath="$PROJECT_DIR$/app/code/local/Magentostudy/News/etc/config.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/design/frontend/base/default/template/magentostudy/news/item.phtml" afterPath="$PROJECT_DIR$/app/design/frontend/base/default/template/magentostudy/news/item.phtml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/design/frontend/base/default/template/magentostudy/news/list.phtml" afterPath="$PROJECT_DIR$/app/design/frontend/base/default/template/magentostudy/news/list.phtml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/design/adminhtml/default/default/layout/magentostudy_news.xml" afterPath="$PROJECT_DIR$/app/design/adminhtml/default/default/layout/magentostudy_news.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/design/frontend/base/default/layout/magentostudy_news.xml" afterPath="$PROJECT_DIR$/app/design/frontend/base/default/layout/magentostudy_news.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+    </list>
     <ignored path="magento1.iws" />
     <ignored path=".idea/workspace.xml" />
     <file path="/a.dummy" changelist="19b417c5-e09f-414b-9d29-e78c8398b984" time="1472198976615" ignored="false" />
@@ -9,7 +33,7 @@
     <file path="/config.xml" changelist="19b417c5-e09f-414b-9d29-e78c8398b984" time="1472198693667" ignored="false" />
     <file path="/install-1.0.0.0.1.php" changelist="19b417c5-e09f-414b-9d29-e78c8398b984" time="1472134244103" ignored="false" />
     <file path="/Image.php" changelist="19b417c5-e09f-414b-9d29-e78c8398b984" time="1472137906448" ignored="false" />
-    <file path="/Dummy.txt" changelist="19b417c5-e09f-414b-9d29-e78c8398b984" time="1472200344314" ignored="false" />
+    <file path="/Dummy.txt" changelist="19b417c5-e09f-414b-9d29-e78c8398b984" time="1472203401260" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -34,33 +58,6 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="data-install-1.0.0.0.1.php" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/code/local/Magentostudy/News/data/magentostudy_news_setup/data-install-1.0.0.0.1.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="117" column="1" selection-start="5463" selection-end="5463" vertical-scroll-proportion="-8.375">
-              <folding>
-                <element signature="e#6#68#0" expanded="true" />
-                <marker date="1472138180660" expanded="true" signature="514:1361" placeholder="..." />
-                <marker date="1472138180660" expanded="true" signature="1014:1135" placeholder="..." />
-                <marker date="1472138180660" expanded="true" signature="1277:1345" placeholder="..." />
-                <marker date="1472138180660" expanded="true" signature="1366:2014" placeholder="..." />
-                <marker date="1472138180660" expanded="true" signature="1371:1496" placeholder="..." />
-                <marker date="1472138180660" expanded="true" signature="1501:1674" placeholder="..." />
-                <marker date="1472138180660" expanded="true" signature="1679:2008" placeholder="..." />
-                <marker date="1472138180660" expanded="true" signature="2018:2272" placeholder="..." />
-                <marker date="1472138180660" expanded="true" signature="2491:2911" placeholder="..." />
-                <marker date="1472138180660" expanded="true" signature="2916:3267" placeholder="..." />
-                <marker date="1472138180660" expanded="true" signature="2921:3003" placeholder="..." />
-                <marker date="1472138180660" expanded="true" signature="3081:3199" placeholder="..." />
-                <marker date="1472138180660" expanded="true" signature="3271:3768" placeholder="..." />
-                <marker date="1472138180660" expanded="true" signature="3271:3555" placeholder="..." />
-                <marker date="1472138180660" expanded="true" signature="3988:5344" placeholder="..." />
-                <marker date="1472138180660" expanded="true" signature="4390:4526" placeholder="..." />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="IndexController.php" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/code/local/Magentostudy/News/controller/IndexController.php">
           <provider selected="true" editor-type-id="text-editor">
@@ -72,20 +69,22 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Observer.php" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/code/local/Magentostudy/News/Model/Observer.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="22" column="43" selection-start="838" selection-end="838" vertical-scroll-proportion="-6.0833335">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="adminhtml.xml" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/etc/modules/adminhtml.xml">
           <provider selected="true" editor-type-id="text-editor">
             <state line="63" column="0" selection-start="2302" selection-end="2302" vertical-scroll-proportion="-5.580645">
-              <folding />
+              <folding>
+                <marker date="1472198210878" expanded="true" signature="88:2300" placeholder="..." />
+                <marker date="1472198210878" expanded="true" signature="559:2290" placeholder="..." />
+                <marker date="1472198210878" expanded="true" signature="579:2279" placeholder="..." />
+                <marker date="1472198210878" expanded="true" signature="599:2258" placeholder="..." />
+                <marker date="1472198210878" expanded="true" signature="626:2237" placeholder="..." />
+                <marker date="1472198210878" expanded="true" signature="698:1672" placeholder="..." />
+                <marker date="1472198210878" expanded="true" signature="829:1644" placeholder="..." />
+                <marker date="1472198210878" expanded="true" signature="884:1608" placeholder="..." />
+                <marker date="1472198210878" expanded="true" signature="1045:1570" placeholder="..." />
+                <marker date="1472198210878" expanded="true" signature="1345:1526" placeholder="..." />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -99,10 +98,37 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="local.xml" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="local.xml" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/etc/local.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="3" column="9" selection-start="34" selection-end="40" vertical-scroll-proportion="0.15625">
+            <state line="3" column="9" selection-start="34" selection-end="40" vertical-scroll-proportion="-1.451613">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Item.php" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/code/local/Magentostudy/News/Block/Item.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="magentostudy_news.xml" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/design/adminhtml/default/default/layout/magentostudy_news.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="magentostudy_news.xml" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/app/design/frontend/base/default/layout/magentostudy_news.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -112,25 +138,13 @@
         <entry file="file://$PROJECT_DIR$/app/etc/system.xml">
           <provider selected="true" editor-type-id="text-editor">
             <state line="30" column="51" selection-start="1119" selection-end="1128" vertical-scroll-proportion="-14.5161295">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="config.xml" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/code/local/Magentostudy/News/etc/config.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="87" column="21" selection-start="2634" selection-end="2634" vertical-scroll-proportion="-13.548388">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="magentostudy_news.xml" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/design/adminhtml/default/default/layout/magentostudy_news.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-0.0">
-              <folding />
+              <folding>
+                <marker date="1472198269062" expanded="true" signature="108:2832" placeholder="..." />
+                <marker date="1472198269062" expanded="true" signature="123:2822" placeholder="..." />
+                <marker date="1472198269062" expanded="true" signature="138:2806" placeholder="..." />
+                <marker date="1472198269062" expanded="true" signature="495:2790" placeholder="..." />
+                <marker date="1472198269062" expanded="true" signature="536:2768" placeholder="..." />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -174,10 +188,10 @@
         <option value="$PROJECT_DIR$/app/etc/system.xml" />
         <option value="$PROJECT_DIR$/app/code/local/Magentostudy/News/etc/config.xml" />
         <option value="$PROJECT_DIR$/app/code/local/Magentostudy/News/controller/adminhtml/NewsController.php" />
-        <option value="$PROJECT_DIR$/app/design/frontend/base/default/layout/magentostudy_news.xml" />
         <option value="$PROJECT_DIR$/app/etc/modules/Magentostudy_News.xml" />
         <option value="$PROJECT_DIR$/app/design/adminhtml/default/default/layout/magentostudy_news.xml.php" />
         <option value="$PROJECT_DIR$/app/design/adminhtml/default/default/layout/magentostudy_news.xml" />
+        <option value="$PROJECT_DIR$/app/design/frontend/base/default/layout/magentostudy_news.xml" />
       </list>
     </option>
   </component>
@@ -278,6 +292,132 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
+              <option name="myItemId" value="design" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="magento1" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="magento1" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="design" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="frontend" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="magento1" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="magento1" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="design" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="frontend" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="base" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="default" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="magento1" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="magento1" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="design" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="frontend" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="base" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="default" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="layout" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="magento1" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="magento1" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="design" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="adminhtml" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="magento1" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="magento1" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
               <option name="myItemId" value="code" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
@@ -352,10 +492,11 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/app/design/frontend" />
+      <recent name="$PROJECT_DIR$/app/design" />
+      <recent name="$PROJECT_DIR$/app/code/local/Magentostudy/News" />
       <recent name="$PROJECT_DIR$/app/design/frontend/base/default/layout" />
       <recent name="$PROJECT_DIR$/app/code/local/Magentostudy/News/etc" />
-      <recent name="$PROJECT_DIR$/app/etc/modules" />
-      <recent name="$PROJECT_DIR$/app/code/local/Magentostudy/News/sql" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/app/etc" />
@@ -479,7 +620,7 @@
     <option name="WRAP_WHEN_TYPING_REACHES_RIGHT_MARGIN" value="false" />
     <option name="FORCE_NON_EMPTY_COMMENT" value="false" />
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="false" />
-    <option name="LAST_COMMIT_MESSAGE" value="files created manually" />
+    <option name="LAST_COMMIT_MESSAGE" value="all files" />
     <option name="MAKE_NEW_CHANGELIST_ACTIVE" value="false" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_FILES_UP_TO_DATE_BEFORE_COMMIT" value="false" />
@@ -494,64 +635,12 @@
     <option name="SHOW_FILE_HISTORY_AS_TREE" value="false" />
     <option name="FILE_HISTORY_SPLITTER_PROPORTION" value="0.6" />
     <MESSAGE value="files created manually" />
+    <MESSAGE value="all files" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/app/design/frontend/base/default/template/magentostudy/news/item.phtml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="33" column="6" selection-start="1071" selection-end="1071" vertical-scroll-proportion="-9.375">
-          <folding>
-            <element signature="e#6#70#0" expanded="true" />
-            <marker date="1472137636760" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1472137636760" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1472137636760" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1472137636760" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1472137636760" expanded="true" signature="-1:-1" placeholder="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/code/local/Magentostudy/News/Helper/Data.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="84" column="1" selection-start="2246" selection-end="2246" vertical-scroll-proportion="-8.375">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/code/local/Magentostudy/News/Helper/Image.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="114" column="68" selection-start="2727" selection-end="2727" vertical-scroll-proportion="35.375">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/code/local/Magentostudy/News/data/magentostudy_news_setup/data-install-1.0.0.0.1.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="117" column="1" selection-start="5463" selection-end="5463" vertical-scroll-proportion="-8.375">
-          <folding>
-            <element signature="e#6#68#0" expanded="true" />
-            <marker date="1472138180660" expanded="true" signature="514:1361" placeholder="..." />
-            <marker date="1472138180660" expanded="true" signature="1014:1135" placeholder="..." />
-            <marker date="1472138180660" expanded="true" signature="1277:1345" placeholder="..." />
-            <marker date="1472138180660" expanded="true" signature="1366:2014" placeholder="..." />
-            <marker date="1472138180660" expanded="true" signature="1371:1496" placeholder="..." />
-            <marker date="1472138180660" expanded="true" signature="1501:1674" placeholder="..." />
-            <marker date="1472138180660" expanded="true" signature="1679:2008" placeholder="..." />
-            <marker date="1472138180660" expanded="true" signature="2018:2272" placeholder="..." />
-            <marker date="1472138180660" expanded="true" signature="2491:2911" placeholder="..." />
-            <marker date="1472138180660" expanded="true" signature="2916:3267" placeholder="..." />
-            <marker date="1472138180660" expanded="true" signature="2921:3003" placeholder="..." />
-            <marker date="1472138180660" expanded="true" signature="3081:3199" placeholder="..." />
-            <marker date="1472138180660" expanded="true" signature="3271:3768" placeholder="..." />
-            <marker date="1472138180660" expanded="true" signature="3271:3555" placeholder="..." />
-            <marker date="1472138180660" expanded="true" signature="3988:5344" placeholder="..." />
-            <marker date="1472138180660" expanded="true" signature="4390:4526" placeholder="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/code/local/Magentostudy/News/controller/IndexController.php">
       <provider selected="true" editor-type-id="text-editor">
         <state line="62" column="53" selection-start="1671" selection-end="1695" vertical-scroll-proportion="0.018181818">
@@ -561,23 +650,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/code/local/Magentostudy/News/Model/Observer.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="22" column="43" selection-start="838" selection-end="838" vertical-scroll-proportion="-6.0833335">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/RELEASE_NOTES.txt">
       <provider selected="true" editor-type-id="text-editor">
         <state line="501" column="13" selection-start="36806" selection-end="36806" vertical-scroll-proportion="0.33333334">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/design/frontend/base/default/layout/magentostudy_news.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="51" column="35" selection-start="1792" selection-end="1792" vertical-scroll-proportion="0.8828125">
           <folding />
         </state>
       </provider>
@@ -596,31 +671,34 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/code/local/Magentostudy/News/etc/config.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="87" column="21" selection-start="2634" selection-end="2634" vertical-scroll-proportion="-13.548388">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/design/adminhtml/default/default/layout/magentostudy_news.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/etc/modules/adminhtml.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state line="63" column="0" selection-start="2302" selection-end="2302" vertical-scroll-proportion="-5.580645">
-          <folding />
+          <folding>
+            <marker date="1472198210878" expanded="true" signature="88:2300" placeholder="..." />
+            <marker date="1472198210878" expanded="true" signature="559:2290" placeholder="..." />
+            <marker date="1472198210878" expanded="true" signature="579:2279" placeholder="..." />
+            <marker date="1472198210878" expanded="true" signature="599:2258" placeholder="..." />
+            <marker date="1472198210878" expanded="true" signature="626:2237" placeholder="..." />
+            <marker date="1472198210878" expanded="true" signature="698:1672" placeholder="..." />
+            <marker date="1472198210878" expanded="true" signature="829:1644" placeholder="..." />
+            <marker date="1472198210878" expanded="true" signature="884:1608" placeholder="..." />
+            <marker date="1472198210878" expanded="true" signature="1045:1570" placeholder="..." />
+            <marker date="1472198210878" expanded="true" signature="1345:1526" placeholder="..." />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/etc/system.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state line="30" column="51" selection-start="1119" selection-end="1128" vertical-scroll-proportion="-14.5161295">
-          <folding />
+          <folding>
+            <marker date="1472198269062" expanded="true" signature="108:2832" placeholder="..." />
+            <marker date="1472198269062" expanded="true" signature="123:2822" placeholder="..." />
+            <marker date="1472198269062" expanded="true" signature="138:2806" placeholder="..." />
+            <marker date="1472198269062" expanded="true" signature="495:2790" placeholder="..." />
+            <marker date="1472198269062" expanded="true" signature="536:2768" placeholder="..." />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -633,7 +711,28 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/etc/local.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="3" column="9" selection-start="34" selection-end="40" vertical-scroll-proportion="0.15625">
+        <state line="3" column="9" selection-start="34" selection-end="40" vertical-scroll-proportion="-1.451613">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/code/local/Magentostudy/News/Block/Item.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/design/adminhtml/default/default/layout/magentostudy_news.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/design/frontend/base/default/layout/magentostudy_news.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>

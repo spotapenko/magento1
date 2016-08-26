@@ -11,8 +11,8 @@ class Magentostudy_News_Helper_Image extends Mage_Core_Helper_Abstract
  *
  * @var string
  */
-    const MEDIA_PATH
-        = 'news';
+    const MEDIA_PATH    = 'news';
+
     /**
      * Maximum size for image in bytes
      * Default value is 1M
@@ -44,21 +44,23 @@ class Magentostudy_News_Helper_Image extends Mage_Core_Helper_Abstract
      * @var int
      */
     const MAX_WIDTH = 800;
-/**
- * Array of image size
- *
- * @var array
- */
+    /**
+     * Array of image size limitation
+     *
+     * @var array
+     */
+    protected $_imageSize   = array(
+        'minheight'     => self::MIN_HEIGHT,
+        'minwidth'      => self::MIN_WIDTH,
+        'maxheight'     => self::MAX_HEIGHT,
+        'maxwidth'      => self::MAX_WIDTH,
+    );
 
-    protected $_imageSize = array(
-    'minheight' => self::MIN_HEIGHT,
-'minwidth' => self::MIN_WIDTH,
-'maxheight'
-=> self::MAX_HEIGHT,
-'maxwidth'
-=> self::MAX_WIDTH,
-);
-
+    /**
+     * Array of allowed file extensions
+     *
+     * @var array
+     */
     protected $_allowedExtensions = array('jpg', 'gif', 'png');
     /**
      * Return the base media directory for News Item images
