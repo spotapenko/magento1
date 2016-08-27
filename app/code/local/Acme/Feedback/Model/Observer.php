@@ -14,6 +14,6 @@ class Acme_Feedback_Model_Observer
      */
     public function testListener(Varien_Event_Observer $observer)
     {
-        var_dump('stas observe acme testListener');
+      //  var_dump('stas observe acme testListener');
     }
 }
