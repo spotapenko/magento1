@@ -9,6 +9,18 @@
             <version>1.0.0.0.1</version>
         </Acme_Feedback>
     </modules>
+    <global>
+        <events>
+            <controller_front_init_routers>
+                <observers>
+                    <magentostudy_news>
+                        <class>Acme_Feedback_Model_Observer</class>
+                        <method>testListener</method>
+                    </magentostudy_news>
+                </observers>
+            </controller_front_init_routers>
+        </events>
+    </global>
     <frontend>
         <routers>
             <acme_feedback>
