@@ -17,8 +17,11 @@ class Acme_Feedback_IndexController extends Mage_Core_Controller_Front_Action
     }
 
     public function paramAction() {
+        $this->loadLayout();
+
         echo 'Goodbye World!';
         $newsId = $this->getRequest()->getParam('id');
         echo $newsId;
+        $this->renderLayout();
     }
 }

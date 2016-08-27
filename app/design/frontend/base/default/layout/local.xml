@@ -1,5 +1,8 @@
 <layout version="0.1.0">
-    <default>
+    <acme_feedback_index_index>
         <block type="page/html" name="root" output="toHtml" template="acme/feedback/page.phtml" />
-    </default>
+    </acme_feedback_index_index>
+    <acme_feedback_index_param>
+        <update handle="acme_feedback_index_index" />
+    </acme_feedback_index_param>
 </layout>
