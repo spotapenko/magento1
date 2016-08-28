@@ -10,6 +10,20 @@
         </Acme_Feedback>
     </modules>
     <global>
+        <models>
+            <feedback>
+                <class>Acme_Feedback_Model</class>
+                <resourceModel>feedback_resource</resourceModel>
+            </feedback>
+            <feedback_resource>
+                <class>Acme_Feedback_Model_Resource</class>
+                <entities>
+                    <feedbackpost>
+                        <table>feedback_posts</table>
+                    </feedbackpost>
+                </entities>
+            </feedback_resource>
+        </models>
         <events>
             <controller_front_init_routers>
                 <observers>
