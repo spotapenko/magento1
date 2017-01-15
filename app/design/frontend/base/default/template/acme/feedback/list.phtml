@@ -1,0 +1,12 @@
+<div style="background-color: red;">
+All posts:
+</div>
+
+<?php
+
+$posts = $this->getAllPosts();
+
+foreach($posts as $feedback){
+    echo '<h3>'.$feedback->getAuthorName().'</h3>';
+    echo nl2br($feedback->getPost());
+}

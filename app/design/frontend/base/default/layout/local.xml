@@ -1,13 +1,2 @@
 <layout version="0.1.0">
-    <acme_feedback_index_index>
-        <reference name="root">
-            <action method="setTemplate">
-                <template>acme/feedback/page.phtml</template>
-            </action>
-            <block type="customer/form_register" name="customer_form_register" template="customer/form/register.phtml"/>
-        </reference>
-    </acme_feedback_index_index>
-    <acme_feedback_index_param>
-        <update handle="acme_feedback_index_index" />
-    </acme_feedback_index_param>
 </layout>

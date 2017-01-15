@@ -1,0 +1,13 @@
+<layout version="0.1.0">
+    <acme_feedback_index_index>
+        <reference name="root">
+            <action method="setTemplate">
+                <template>acme/feedback/page.phtml</template>
+            </action>
+            <block type="acme_feedback/list" name="feedback.list" template="acme/feedback/list.phtml"/>
+        </reference>
+    </acme_feedback_index_index>
+    <acme_feedback_index_param>
+        <update handle="acme_feedback_index_index" />
+    </acme_feedback_index_param>
+</layout>

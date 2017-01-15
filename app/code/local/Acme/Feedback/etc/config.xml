@@ -42,6 +42,11 @@
                 </observers>
             </controller_front_init_routers>
         </events>
+        <blocks>
+            <acme_feedback>
+                <class>Acme_Feedback_Block</class>
+            </acme_feedback>
+        </blocks>
     </global>
     <frontend>
         <routers>
@@ -53,5 +58,12 @@
                 </args>
             </acme_feedback>
         </routers>
+        <layout>
+            <updates>
+                <acme_feedback>
+                    <file>acme_feedback.xml</file>
+                </acme_feedback>
+            </updates>
+        </layout>
     </frontend>
 </config>
