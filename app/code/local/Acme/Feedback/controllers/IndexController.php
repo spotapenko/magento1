@@ -33,13 +33,8 @@ class Acme_Feedback_IndexController extends Mage_Core_Controller_Front_Action
     }
 
     public function showAllFeedbackPostsAction() {
-        //$this->loadLayout();
-        $posts = Mage::getModel('feedback/feedbackpost')->getCollection();
-        foreach($posts as $feedback){
-            echo '<h3>'.$feedback->getAuthorName().'</h3>';
-            echo nl2br($feedback->getPost());
-        }
-        // $this->renderLayout();
+        $this->loadLayout();
+        $this->renderLayout();
     }
 
     //magento1.localhost/feedback/index/new?authorName=NewAuthor3&post=Feedback 3
